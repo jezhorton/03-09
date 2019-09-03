@@ -1,0 +1,11 @@
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\bin\Debug\netcoreapp2.1\03-09Hw.deps.json
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\bin\Debug\netcoreapp2.1\03-09Hw.runtimeconfig.json
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\bin\Debug\netcoreapp2.1\03-09Hw.runtimeconfig.dev.json
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\bin\Debug\netcoreapp2.1\03-09Hw.dll
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\bin\Debug\netcoreapp2.1\03-09Hw.pdb
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\obj\Debug\netcoreapp2.1\03-09Hw.csprojAssemblyReference.cache
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\obj\Debug\netcoreapp2.1\03-09Hw.csproj.CoreCompileInputs.cache
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\obj\Debug\netcoreapp2.1\03-09Hw.AssemblyInfoInputs.cache
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\obj\Debug\netcoreapp2.1\03-09Hw.AssemblyInfo.cs
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\obj\Debug\netcoreapp2.1\03-09Hw.dll
+C:\Users\Jez Horton\source\repos\week4\Day2\03-09Hw\03-09Hw\obj\Debug\netcoreapp2.1\03-09Hw.pdb
