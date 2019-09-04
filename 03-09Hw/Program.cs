@@ -29,8 +29,9 @@ Return this sum
             Program p = new Program();
             Console.WriteLine("Hello World!");
             //p.Lab1And2();
-            p.Lab3();
-            p.Lab4();
+            //p.Lab3();
+            //p.Lab4();
+            p.Lab5();
             Console.ReadLine();
 
         }
@@ -39,14 +40,13 @@ Return this sum
         {
             int[,,] array = new int[10, 10, 10];
             int total = 0, value = 0;
-            for (int i = 1; i < array.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                for (int x = 1; x < array.GetLength(1); x++)
+                for (int x = 0; x < array.GetLength(1); x++)
                 {
-                    for (int p = 1; p < array.GetLength(2); p++)
+                    for (int p = 0; p < array.GetLength(2); p++)
                     {
-                        total = total + 1;
-                        array[i, x, p] = total;
+                        array[i, x, p] = (i + 1) * (x + 1) * (p + 1);
                         Console.WriteLine("This is the current array: " + array[i, x, p]);
                     }
                 }
@@ -88,13 +88,12 @@ Return this sum
             for (int i = 0; i < 100; i++)
             {
                 number = Convert.ToDouble(i);
-                //result = Math.Ceiling(Math.Pow(number, (double) 1 / 3)); //Unsure if you required cube root or cubed
-                result = number * number;
+                result = Math.Ceiling(Math.Pow(number, (double) 3)); //Unsure if you required cube root or cubed
+                //result = number * number * number;
                 Console.WriteLine("Result for cube: " + result);
                 que.Enqueue(result);
-
             }
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 que.Dequeue();
             }
@@ -109,16 +108,16 @@ Return this sum
             double number = 0, result = 0, another = 0;
             int works = 0;
             Stack<double> que = new Stack<double>();
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i <= 100; i++)
             {
                 number = Convert.ToDouble(i);
-                //result = Math.Ceiling(Math.Pow(number, (double) 1 / 3)); //Unsure if you required cube root or cubed
-                result = number * number;
+                result = Math.Ceiling(Math.Pow(number, (double) 3)); //Unsure if you required cube root or cubed
+                //result = number * number * number;
                 Console.WriteLine("Result for cube: " + result);
                 que.Push(result);
 
             }
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 another = another + que.Pop();
             }
